@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: Roboto,sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 550px;
+    margin-left: 23px;
+}
+.logo-navbar {
+    margin-left: 70px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 100px;
+}
+li {
+    display: flex;
+}
+li svg {
+    margin-top: 2px;
+    margin-left: 6px;
+}
+li:nth-child(1) {
+    color: blue;
+}
+.content-start {
+    display: flex;
+    background-color: #f0f2ff;
+    margin-top: 30px;
+    font-family:DM Sans,sans-serif;
+    padding-bottom: 65px;
+
+}
+.about-content-start {
+    margin-left: 100px;
+    padding-right: 125px;
+    padding-top: 70px;
+}
+.title-content-start {
+    font-size: 26px;
+    width: 550px;
+}
+.description-content-start {
+    color: gray;
+    margin-top: 30px;
+}
+.about-content-start button {
+    display: flex;
+    background-color: rgb(9, 9, 215);
+    border: none;
+    padding: 15px 57px 15px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+}
+.about-content-start button svg {
+    margin-left: 60px;
+    margin-right: -20px;
+}
+.goals-content {
+    display: flex;   
+    font-family: Roboto,sans-serif;
+    background-color: rgb(253, 191, 74);
+}
+.content-goals-1 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    gap: 25px;
+}
+.description-content-goals {
+    margin-top: 17px;
+}
+.description-content-goals p {
+    margin-top: 7px;
+}
+.content-goals-2 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 25px;
+}
+.description-content-goals {
+    margin-top: 17px;
+}
+.description-content-goals p {
+    margin-top: 7px;
+}
+.content-goals-3 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 25px;
+}
+.description-content-goals {
+    margin-top: 17px;
+}
+.description-content-goals p {
+    margin-top: 7px;
+}
+.content-goals-3 svg {
+    margin-top: 13px;
+}
+.popular-lesson {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Roboto,sans-serif;
+}
+.popular-lesson ul {
+    display: flex;
+    margin-left: 60px;
+}
+.popular-lesson li:nth-child(1) {
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.1);
+}
+.popular-lesson li:nth-child(2) {
+    color: gray;
+    margin-top: 9px;
+    margin-left: 5px;
+} 
+.popular-lesson li:nth-child(3) {
+    color: gray;
+    margin-top: 9px;
+    margin-left: 5px;
+} 
+.popular-lesson li:nth-child(4) {
+    color: gray;
+    margin-top: 9px;
+    margin-left: 5px;
+} 
+.popular-lesson li:nth-child(5) {
+    color: gray;
+    margin-top: 9px;
+    margin-left: 5px;
+} 
+.card-row-lesson-1 {
+    display: flex;
+    margin-left:20px;
+}
+.description-card {
+    border: 2px solid rgb(224, 224, 224);
+    border-top: none;
+    margin-top: -5px;
+    font-family: Roboto,sans-serif;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.description-card h5{
+    color: rgb(9, 9, 215);
+    padding-top: 30px;
+    padding-bottom:   10px;
+}
+.description-card h2 {
+    padding-bottom: 20px;
+}
+.footer-card-lesson {
+    display: flex;
+}
+.card-row-lesson-2 {
+    display: flex;
+    margin-left: -890px;
+    margin-top: -50px;
+}
+.membership-pro {
+    display: flex;
+    font-family: Roboto,sans-serif;
+background-color: bisque;
+margin-left: -920px;
+margin-top: 100px;
+padding-bottom: 20px;
+width: 1300px;
+}
+.button-membership-pro {
+    display: flex;
+    background-color: rgb(9, 9, 215);
+    border: none;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+}
+body {
+    overflow-x: hidden;
+}
+.membership-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    gap: 100px;
+}
+.popular-row-1 {
+    display: flex;
+}
